@@ -1,4 +1,5 @@
 #importing the time module
+#this is a program for the game of hangman
 import time
 
 
