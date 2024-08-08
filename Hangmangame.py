@@ -3,7 +3,7 @@
 import time
 
 
-name = input("What is your name? ")
+name = input("What is your name? ")#player name
 
 print( "Hello, " + name, "Time to play hangman!")
 
