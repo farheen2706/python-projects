@@ -20,7 +20,7 @@ except:
 for word in pass_file:#reads all the values in the file
  #print(word)
  enc_word = word.encode('utf-8')#converting to encoded
- hash_word = hashlib.md5(enc_word.strip())#hashing the value in this function
+ hash_word = hashlib.md5(enc_word.strip())#removes any leading charcters like spaces etc.
  digest = hash_word.hexdigest()#converts into hexadecimal string
  #print(digest)
  if digest == input_hash:#compares the values from the file and finds the password
