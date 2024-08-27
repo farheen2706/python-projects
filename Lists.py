@@ -6,7 +6,7 @@ v1 = list1[2]
 
 print(v1)
 
-list1[0] = "hema" #updating the list
+list1[0] = "hema" #updating the list with replacement
 
 print("Updated list", list1)
 
