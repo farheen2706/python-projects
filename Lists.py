@@ -1,5 +1,5 @@
 
-#list
+#list containing all kinds of datatypes
 list1 = [1, 2.3, "farheen"]
 
 v1 = list1[2]
