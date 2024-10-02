@@ -5,7 +5,7 @@
 for i in range (10):
     print(i+1)
 
-list2 = [1,2,3,4,5,6,7,8]
+list2 = [1,2,3,4,5,6,7]
 
 for i in list2:
     if i == 6:
