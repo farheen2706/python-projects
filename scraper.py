@@ -2,7 +2,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-# Regular expression patterns for email and phone numbers
+# Regular expressions patterns for email and phone numbers
 EMAIL_REGEX = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
 PHONE_REGEX = r'\+?\d{1,4}?[-.\s]?\(?\d{2,4}?\)?[-.\s]?\d{3,4}[-.\s]?\d{3,4}'
 
